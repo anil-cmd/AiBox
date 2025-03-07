@@ -27,6 +27,7 @@ public class ProductServiceImpl implements ProductService{
 	i += 6;
 	i += 14;
 
+
 	
 	@Override
 	public Product getProduct(Long id) {
