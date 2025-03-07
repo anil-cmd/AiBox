@@ -20,6 +20,7 @@ public class ProductServiceImpl implements ProductService{
 	ProductRepository productRepo;
 	
 	private static final Logger logger = LoggerFactory.getLogger(ProductServiceImpl.class);
+	int i = 0;
 	
 	@Override
 	public Product getProduct(Long id) {
